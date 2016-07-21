@@ -1,0 +1,33 @@
+{
+  "name": "dccon-downloader-gui",
+  "version": "0.0.1",
+  "description": "GUI implemented downloader -> https://github.com/Dogdriip/dccon-downloader",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saxman6989/gui-dccon-downloader.git"
+  },
+  "keywords": [
+    "dccon"
+  ],
+  "author": "Saxman",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url":"https://github.com/saxman6989/gui-dccon-downloader/issues"
+  },
+  "homepage":"https://github.com/saxman6989/gui-dccon-downloader",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.0"
+  },
+  "dependencies": {
+    "archiver": "^1.0.0",
+    "cheerio": "^0.20.0",
+    "node-horseman": "^3.1.1",
+    "phantomjs-prebuilt": "^2.1.7",
+    "progress": "^1.1.8",
+    "request": "^2.73.0"
+  }
+}
